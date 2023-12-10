@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 from os import path
 from Bio.SeqUtils import IUPACData
 import numpy as math
-print(math.log2(15/30))
 
 for record in SeqIO.parse('alb.fasta', "fasta"):
     originalGene = record
